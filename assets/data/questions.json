@@ -1,0 +1,124 @@
+[
+  {
+    "id": "sk-m-01",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol game mana yang pertama kali mempopulerkan penggunaan cartridge bongkar-pasang pada tahun 1977?",
+    "options": ["Atari 2600", "Nintendo Entertainment System (NES)", "Sega Master System", "Magnavox Odyssey"],
+    "correctIndex": 0,
+    "explanation": "Atari 2600 (Atari Video Computer System) mempopulerkan penggunaan ROM cartridge yang dapat diganti-ganti."
+  },
+  {
+    "id": "sk-m-02",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol buatan Sony yang dirilis pada tahun 1994 dan menjadi konsol pertama yang menjual lebih dari 100 juta unit adalah...",
+    "options": ["PlayStation 2", "PlayStation 1", "PlayStation 3", "PlayStation Portable"],
+    "correctIndex": 1,
+    "explanation": "PlayStation pertama (PS1) dirilis di Jepang tahun 1994 dan berhasil menembus 100 juta penjualan global."
+  },
+  {
+    "id": "sk-s-01",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Apa konsol rumah tangga terlaris sepanjang masa hingga saat ini?",
+    "options": ["Nintendo Switch", "PlayStation 2", "Nintendo Wii", "PlayStation 4"],
+    "correctIndex": 1,
+    "explanation": "PlayStation 2 memegang rekor konsol rumah tangga terlaris sepanjang masa dengan angka penjualan melebihi 155 juta unit."
+  },
+  {
+    "id": "sk-h-01",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Sebelum merambah industri video game, perusahaan Nintendo didirikan pada tahun 1889 sebagai produsen apa?",
+    "options": ["Kartu Remi (Hanafuda)", "Mainan Kayu", "Jam Tangan Saku", "Peralatan Jahit"],
+    "correctIndex": 0,
+    "explanation": "Fusajiro Yamauchi mendirikan Nintendo pada tahun 1889 untuk membuat kartu permainan buatan tangan bernama Hanafuda."
+  },
+  {
+    "id": "gm-m-01",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Mekanik 'Gacha' dalam game mobile terinspirasi dari sistem apa di Jepang?",
+    "options": ["Mesin Tiket Lotre", "Mesin Kapsul Mainan (Gashapon)", "Kotak Misteri", "Mesin Slot"],
+    "correctIndex": 1,
+    "explanation": "Istilah Gacha berasal dari 'Gashapon', yaitu mesin otomatis di Jepang yang mengeluarkan mainan dalam kapsul secara acak."
+  },
+  {
+    "id": "gm-s-01",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Genre game yang terkenal dengan tingkat kesulitan tinggi dan mekanisme kehilangan resource saat mati (seperti Dark Souls) disebut...",
+    "options": ["Metroidvania", "Soulslike", "Roguelike", "Hack and Slash"],
+    "correctIndex": 1,
+    "explanation": "Soulslike adalah sub-genre dari action RPG yang terinspirasi oleh seri Demon's Souls dan Dark Souls buatan FromSoftware."
+  },
+  {
+    "id": "gm-h-01",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Apa perbedaan utama antara genre Roguelike dan Roguelite?",
+    "options": [
+      "Roguelike menggunakan grafik 3D, Roguelite 2D",
+      "Roguelike memiliki permanen progression (upgrades), Roguelite tidak",
+      "Roguelite memiliki meta-progression (progres permanen antar run)",
+      "Tidak ada perbedaan sama sekali"
+    ],
+    "correctIndex": 2,
+    "explanation": "Roguelite mempertahankan elemen acak dan permadeath, namun memberikan upgrade atau item permanen yang terbawa antar run."
+  },
+  {
+    "id": "kd-m-01",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Siapa nama maskot ikonik SEGA yang dikenal sebagai landak biru super cepat?",
+    "options": ["Shadow", "Tails", "Sonic the Hedgehog", "Knuckles"],
+    "correctIndex": 2,
+    "explanation": "Sonic the Hedgehog diciptakan oleh SEGA pada tahun 1991 sebagai maskot utama untuk bersaing dengan Mario dari Nintendo."
+  },
+  {
+    "id": "kd-s-01",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Apa nama kerajaan tempat tinggal Putri Peach dan Mario?",
+    "options": ["Hyrule", "Mushroom Kingdom", "Kanto", "Zebes"],
+    "correctIndex": 1,
+    "explanation": "Mushroom Kingdom (Kerajaan Jamur) adalah lokasi utama dalam franchise game Super Mario."
+  },
+  {
+    "id": "kd-h-01",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Siapa pencipta asli dari karakter Mario dan franchise The Legend of Zelda?",
+    "options": ["Hideo Kojima", "Shigeru Miyamoto", "Tetsuya Nomura", "Eiji Aonuma"],
+    "correctIndex": 1,
+    "explanation": "Shigeru Miyamoto adalah perancang game legendaris Nintendo yang menciptakan Mario, Zelda, Donkey Kong, Pikmin, dan Star Fox."
+  },
+  {
+    "id": "es-m-01",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Game MOBA PC dengan turnamen tahunan 'The International' yang menawarkan prize pool fantastis adalah...",
+    "options": ["League of Legends", "Dota 2", "Mobile Legends", "Arena of Valor"],
+    "correctIndex": 1,
+    "explanation": "Dota 2 dikembangkan oleh Valve dan menyelenggarakan turnamen dunia 'The International'."
+  },
+  {
+    "id": "es-s-01",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Istilah 'CS:GO' merupakan singkatan dari game esports populer buatan Valve, yaitu...",
+    "options": ["Counter-Strike: Global Offensive", "Cyber-Strike: Grand Online", "Counter-Strike: Guns Out", "Combat-Strike: Global Ops"],
+    "correctIndex": 0,
+    "explanation": "CS:GO singkatan dari Counter-Strike: Global Offensive, rilis tahun 2012 dan menjadi salah satu game FPS terbesar."
+  },
+  {
+    "id": "es-h-01",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Momen legendaris esports 'Evo Moment 37' (Parry Daigo) terjadi pada game fighting apa di tahun 2004?",
+    "options": ["Tekken 5", "Street Fighter III: 3rd Strike", "Super Smash Bros. Melee", "Guilty Gear X2"],
+    "correctIndex": 1,
+    "explanation": "Daigo Umehara melakukan parry 15 pukulan beruntun dari Justin Wong menggunakan Chun-Li di Street Fighter III: 3rd Strike."
+  }
+]
