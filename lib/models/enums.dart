@@ -6,36 +6,42 @@ enum QuizCategory {
     label: 'Sejarah & Konsol',
     description: 'Fakta unik sejarah konsol & perkembangan industri game',
     icon: Icons.sports_esports_rounded,
+    color: Color(0xFF8E24AA), // Purple / Magenta
   ),
   genreMekanik(
     keyName: 'genreMekanik',
     label: 'Genre & Mekanik',
     description: 'Istilah, logika, dan mekanisme permainan',
     icon: Icons.extension_rounded,
+    color: Color(0xFF00897B), // Teal / Emerald
   ),
   karakterDunia(
     keyName: 'karakterDunia',
     label: 'Karakter & Dunia',
     description: 'Karakter ikonik, lore, dan dunia video game',
     icon: Icons.person_search_rounded,
+    color: Color(0xFFE65100), // Deep Orange
   ),
   esports(
     keyName: 'esports',
     label: 'Esports & Kompetitif',
     description: 'Turnamen, atlet, dan momen bersejarah esports',
     icon: Icons.emoji_events_rounded,
+    color: Color(0xFF1E88E5), // Cobalt Blue
   );
 
   final String keyName;
   final String label;
   final String description;
   final IconData icon;
+  final Color color;
 
   const QuizCategory({
     required this.keyName,
     required this.label,
     required this.description,
     required this.icon,
+    required this.color,
   });
 
   static QuizCategory fromKey(String key) {

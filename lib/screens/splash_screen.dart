@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../core/constants/app_strings.dart';
 import '../core/utils/responsive.dart';
+import '../data/question_repository.dart';
+import '../widgets/app_background.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -33,12 +35,29 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _controller.forward();
+    _initDataAndNavigate();
+  }
 
-    Future.delayed(const Duration(milliseconds: 2500), () {
-      if (mounted) {
-        Navigator.of(context).pushReplacementNamed(AppStrings.routeHome);
-      }
-    });
+  Future<void> _initDataAndNavigate() async {
+    final startTime = DateTime.now();
+
+    try {
+      await QuestionRepository().loadQuestions();
+    } catch (_) {
+      // Abaikan error pembacaan awal
+    }
+
+    final elapsedTime = DateTime.now().difference(startTime);
+    final remainingDelay =
+        const Duration(milliseconds: 2500) - elapsedTime;
+
+    if (remainingDelay > Duration.zero) {
+      await Future.delayed(remainingDelay);
+    }
+
+    if (mounted) {
+      Navigator.of(context).pushReplacementNamed(AppStrings.routeHome);
+    }
   }
 
   @override
@@ -52,12 +71,7 @@ class _SplashScreenState extends State<SplashScreen>
     final theme = Theme.of(context);
 
     return Scaffold(
-      body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        decoration: BoxDecoration(
-          color: theme.scaffoldBackgroundColor,
-        ),
+      body: AppBackground(
         child: ResponsiveCenter(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -73,7 +87,8 @@ class _SplashScreenState extends State<SplashScreen>
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: theme.colorScheme.primary.withValues(alpha: 0.4),
+                          color:
+                              theme.colorScheme.primary.withValues(alpha: 0.4),
                           blurRadius: 20,
                           spreadRadius: 5,
                         )

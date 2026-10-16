@@ -5,6 +5,7 @@ import '../app/theme/app_text_styles.dart';
 import '../core/utils/formatters.dart';
 import '../core/utils/responsive.dart';
 import '../providers/leaderboard_provider.dart';
+import '../widgets/app_background.dart';
 
 class LeaderboardScreen extends StatelessWidget {
   const LeaderboardScreen({super.key});
@@ -12,10 +13,12 @@ class LeaderboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
     final leaderboardProvider = context.watch<LeaderboardProvider>();
     final results = leaderboardProvider.results;
 
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         title: const Text('Leaderboard'),
         actions: [
@@ -52,93 +55,137 @@ class LeaderboardScreen extends StatelessWidget {
             ),
         ],
       ),
-      body: SafeArea(
-        child: ResponsiveCenter(
-          padding: const EdgeInsets.all(16.0),
-          child: leaderboardProvider.isLoading
-              ? const Center(child: CircularProgressIndicator())
-              : results.isEmpty
-                  ? Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.emoji_events_outlined,
-                            size: 80,
-                            color: theme.colorScheme.onSurface
-                                .withValues(alpha: 0.3),
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            'Belum Ada Riwayat Skor',
-                            style: theme.textTheme.titleMedium,
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            'Selesaikan kuis untuk mencatatkan skor di sini!',
-                            style: theme.textTheme.bodyMedium?.copyWith(
+      body: AppBackground(
+        child: SafeArea(
+          child: ResponsiveCenter(
+            padding: const EdgeInsets.all(16.0),
+            child: leaderboardProvider.isLoading
+                ? const Center(child: CircularProgressIndicator())
+                : results.isEmpty
+                    ? Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              Icons.emoji_events_outlined,
+                              size: 80,
                               color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
+                                  .withValues(alpha: 0.3),
                             ),
-                          ),
-                        ],
-                      ),
-                    )
-                  : ListView.builder(
-                      itemCount: results.length,
-                      itemBuilder: (context, index) {
-                        final item = results[index];
-                        final rank = index + 1;
+                            const SizedBox(height: 16),
+                            Text(
+                              'Belum Ada Riwayat Skor',
+                              style: theme.textTheme.titleMedium,
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Selesaikan kuis untuk mencatatkan skor di sini!',
+                              style: theme.textTheme.bodyMedium?.copyWith(
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    : ListView.builder(
+                        itemCount: results.length,
+                        itemBuilder: (context, index) {
+                          final item = results[index];
+                          final rank = index + 1;
+                          final catColor = item.category.color;
 
-                        Widget rankBadge;
-                        if (rank == 1) {
-                          rankBadge = const Text('🥇', style: TextStyle(fontSize: 24));
-                        } else if (rank == 2) {
-                          rankBadge = const Text('🥈', style: TextStyle(fontSize: 24));
-                        } else if (rank == 3) {
-                          rankBadge = const Text('🥉', style: TextStyle(fontSize: 24));
-                        } else {
-                          rankBadge = CircleAvatar(
-                            radius: 14,
-                            backgroundColor:
-                                theme.colorScheme.primary.withValues(alpha: 0.1),
-                            child: Text(
-                              '#$rank',
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: theme.colorScheme.primary,
-                                fontWeight: FontWeight.bold,
+                          Widget rankBadge;
+                          if (rank == 1) {
+                            rankBadge = const Text('🥇',
+                                style: TextStyle(fontSize: 24));
+                          } else if (rank == 2) {
+                            rankBadge = const Text('🥈',
+                                style: TextStyle(fontSize: 24));
+                          } else if (rank == 3) {
+                            rankBadge = const Text('🥉',
+                                style: TextStyle(fontSize: 24));
+                          } else {
+                            rankBadge = CircleAvatar(
+                              radius: 14,
+                              backgroundColor: theme.colorScheme.primary
+                                  .withValues(alpha: 0.1),
+                              child: Text(
+                                '#$rank',
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: theme.colorScheme.primary,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            );
+                          }
+
+                          return Card(
+                            margin: const EdgeInsets.only(bottom: 10),
+                            child: ListTile(
+                              leading: rankBadge,
+                              title: Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      item.playerName,
+                                      style: theme.textTheme.titleMedium,
+                                    ),
+                                  ),
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 8, vertical: 2),
+                                    decoration: BoxDecoration(
+                                      color: catColor.withValues(
+                                          alpha: isDark ? 0.25 : 0.15),
+                                      borderRadius: BorderRadius.circular(12),
+                                      border: Border.all(
+                                          color: catColor, width: 1),
+                                    ),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Icon(item.category.icon,
+                                            size: 12, color: catColor),
+                                        const SizedBox(width: 4),
+                                        Text(
+                                          item.category.label,
+                                          style: TextStyle(
+                                            fontSize: 11,
+                                            fontWeight: FontWeight.bold,
+                                            color: isDark
+                                                ? catColor.withValues(alpha: 0.95)
+                                                : catColor,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              subtitle: Padding(
+                                padding: const EdgeInsets.only(top: 4.0),
+                                child: Text(
+                                  'Level: ${item.difficulty.label} • ${AppFormatters.formatDate(item.date)}',
+                                  style: AppTextStyles.caption(
+                                    color: theme.colorScheme.onSurface
+                                        .withValues(alpha: 0.7),
+                                  ),
+                                ),
+                              ),
+                              trailing: Text(
+                                AppFormatters.formatScore(item.score),
+                                style: theme.textTheme.titleLarge?.copyWith(
+                                  color: theme.colorScheme.primary,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           );
-                        }
-
-                        return Card(
-                          margin: const EdgeInsets.only(bottom: 10),
-                          child: ListTile(
-                            leading: rankBadge,
-                            title: Text(
-                              item.playerName,
-                              style: theme.textTheme.titleMedium,
-                            ),
-                            subtitle: Text(
-                              '${item.category.label} • ${item.difficulty.label}\n${AppFormatters.formatDate(item.date)}',
-                              style: AppTextStyles.caption(
-                                color: theme.colorScheme.onSurface
-                                    .withValues(alpha: 0.7),
-                              ),
-                            ),
-                            trailing: Text(
-                              AppFormatters.formatScore(item.score),
-                              style: theme.textTheme.titleLarge?.copyWith(
-                                color: theme.colorScheme.primary,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                        );
-                      },
-                    ),
+                        },
+                      ),
+          ),
         ),
       ),
     );

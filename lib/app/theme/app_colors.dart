@@ -25,6 +25,25 @@ class AppColors {
   static const Color darkWrong = Color(0xFFFF7A7A);
   static const Color darkBorder = Color(0xFF4A2B73);
 
+  // Background Gradients
+  static const LinearGradient lightBackgroundGradient = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Color(0xFFF5ECFF), // Lighter lavender top
+      Color(0xFFE2CDF8), // Deep soft purple bottom
+    ],
+  );
+
+  static const LinearGradient darkBackgroundGradient = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Color(0xFF1B0733), // Rich dark purple top
+      Color(0xFF0C021A), // Deep midnight purple bottom
+    ],
+  );
+
   // Status & Neutral Common Colors
   static const Color gold = Color(0xFFFFD700);
   static const Color silver = Color(0xFFC0C0C0);

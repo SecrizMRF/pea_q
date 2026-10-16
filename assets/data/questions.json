@@ -18,6 +18,123 @@
     "explanation": "PlayStation pertama (PS1) dirilis di Jepang tahun 1994 dan berhasil menembus 100 juta penjualan global."
   },
   {
+    "id": "sk-m-03",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol Nintendo pertama yang menggunakan cartridge bongkar-pasang adalah...",
+    "options": ["Nintendo Entertainment System (NES)", "Super Nintendo", "Nintendo 64", "GameCube"],
+    "correctIndex": 0,
+    "explanation": "NES menggunakan cartridge yang dapat diganti-ganti dan menjadi standar konsol Nintendo generasi awal."
+  },
+  {
+    "id": "sk-m-04",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "PlayStation 2 dirilis pertama kali pada tahun...",
+    "options": ["1998", "2000", "2002", "2004"],
+    "correctIndex": 1,
+    "explanation": "PlayStation 2 dirilis pada tahun 2000 dan menjadi konsol rumah terlaris sepanjang masa."
+  },
+  {
+    "id": "sk-m-05",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Di Amerika Utara, Sega Mega Drive dikenal dengan nama...",
+    "options": ["Sega Genesis", "Sega Saturn", "Sega Game Gear", "Sega CD"],
+    "correctIndex": 0,
+    "explanation": "Sega Mega Drive dipasarkan dengan nama Sega Genesis di Amerika Utara."
+  },
+  {
+    "id": "sk-m-06",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol genggam pertama Nintendo yang sukses besar adalah...",
+    "options": ["Game Boy", "Game Boy Advance", "Nintendo DS", "Virtual Boy"],
+    "correctIndex": 0,
+    "explanation": "Game Boy dirilis tahun 1989 dan menjadi salah satu konsol genggam paling sukses."
+  },
+  {
+    "id": "sk-m-07",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Microsoft pertama kali masuk pasar konsol dengan merilis...",
+    "options": ["Xbox", "Xbox 360", "Xbox One", "Xbox Series X"],
+    "correctIndex": 0,
+    "explanation": "Xbox pertama dirilis tahun 2001 sebagai debut Microsoft di pasar konsol rumah."
+  },
+  {
+    "id": "sk-m-08",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol yang mempopulerkan analog stick sebagai kontrol standar adalah...",
+    "options": ["Nintendo 64", "PlayStation", "Sega Saturn", "Atari Jaguar"],
+    "correctIndex": 0,
+    "explanation": "Nintendo 64 memperkenalkan analog stick pada controller standarnya."
+  },
+  {
+    "id": "sk-m-09",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Sega Saturn adalah konsol generasi...",
+    "options": ["8-bit", "16-bit", "32-bit", "64-bit"],
+    "correctIndex": 2,
+    "explanation": "Sega Saturn merupakan konsol 32-bit yang dirilis pada tahun 1994."
+  },
+  {
+    "id": "sk-m-10",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Nintendo Wii terkenal karena fokus pada...",
+    "options": ["Grafik 4K", "Kontrol gerak", "VR", "Cloud gaming"],
+    "correctIndex": 1,
+    "explanation": "Nintendo Wii mempopulerkan kontrol gerak melalui Wii Remote."
+  },
+  {
+    "id": "sk-m-11",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "PlayStation 4 dirilis pada tahun...",
+    "options": ["2011", "2012", "2013", "2014"],
+    "correctIndex": 2,
+    "explanation": "PlayStation 4 dirilis pertama kali pada November 2013."
+  },
+  {
+    "id": "sk-m-12",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Xbox 360 diproduksi oleh...",
+    "options": ["Sony", "Microsoft", "Nintendo", "Sega"],
+    "correctIndex": 1,
+    "explanation": "Xbox 360 adalah konsol buatan Microsoft."
+  },
+  {
+    "id": "sk-m-13",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Game Sonic the Hedgehog pertama kali muncul di konsol...",
+    "options": ["Sega Genesis", "SNES", "NES", "PlayStation"],
+    "correctIndex": 0,
+    "explanation": "Sonic the Hedgehog debut di Sega Genesis pada tahun 1991."
+  },
+  {
+    "id": "sk-m-14",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Nintendo Switch adalah konsol hibrida yang dapat...",
+    "options": ["Hanya TV", "Hanya genggam", "TV dan genggam", "Hanya VR"],
+    "correctIndex": 2,
+    "explanation": "Nintendo Switch dapat dimainkan di TV maupun sebagai konsol genggam."
+  },
+  {
+    "id": "sk-m-15",
+    "category": "sejarahKonsol",
+    "difficulty": "mudah",
+    "text": "Konsol yang dijuluki sebagai konsol 16-bit dari Sega adalah...",
+    "options": ["Sega Genesis", "Sega Saturn", "Dreamcast", "Game Gear"],
+    "correctIndex": 0,
+    "explanation": "Sega Genesis atau Mega Drive adalah konsol 16-bit Sega."
+  },
+  {
     "id": "sk-s-01",
     "category": "sejarahKonsol",
     "difficulty": "sedang",
@@ -25,6 +142,132 @@
     "options": ["Nintendo Switch", "PlayStation 2", "Nintendo Wii", "PlayStation 4"],
     "correctIndex": 1,
     "explanation": "PlayStation 2 memegang rekor konsol rumah tangga terlaris sepanjang masa dengan angka penjualan melebihi 155 juta unit."
+  },
+  {
+    "id": "sk-s-02",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol rumah pertama yang menggunakan CD-ROM secara built-in sebagai media utama adalah...",
+    "options": ["PlayStation", "Sega Saturn", "Nintendo 64", "Dreamcast"],
+    "correctIndex": 0,
+    "explanation": "PlayStation mempopulerkan media CD-ROM secara built-in untuk konsol rumah."
+  },
+  {
+    "id": "sk-s-03",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Perusahaan yang mengembangkan konsol Dreamcast adalah...",
+    "options": ["Sega", "Sony", "Nintendo", "Atari"],
+    "correctIndex": 0,
+    "explanation": "Dreamcast dikembangkan dan dirilis oleh Sega pada tahun 1998."
+  },
+  {
+    "id": "sk-s-04",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol Sega yang harus dihentikan produksinya karena kalah bersaing dengan PS2 adalah...",
+    "options": ["Dreamcast", "Saturn", "Genesis", "Master System"],
+    "correctIndex": 0,
+    "explanation": "Dreamcast dihentikan produksinya pada tahun 2001 setelah kalah bersaing."
+  },
+  {
+    "id": "sk-s-05",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Nintendo GameCube menggunakan media penyimpanan berbentuk...",
+    "options": ["CD", "DVD", "MiniDVD", "Cartridge"],
+    "correctIndex": 2,
+    "explanation": "GameCube menggunakan media MiniDVD khusus."
+  },
+  {
+    "id": "sk-s-06",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Layanan online berbayar pertama yang sukses di konsol Xbox adalah...",
+    "options": ["Xbox Live", "PlayStation Network", "Nintendo Switch Online", "Steam"],
+    "correctIndex": 0,
+    "explanation": "Xbox Live diluncurkan pada tahun 2002 dan menjadi layanan online konsol yang sukses."
+  },
+  {
+    "id": "sk-s-07",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol pertama Microsoft yang memiliki hard drive internal sebagai standar adalah...",
+    "options": ["Xbox", "Xbox 360", "Xbox One", "Xbox Series X"],
+    "correctIndex": 0,
+    "explanation": "Xbox generasi pertama memiliki hard drive internal sebagai standar."
+  },
+  {
+    "id": "sk-s-08",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Nama Jepang dari NES adalah...",
+    "options": ["Famicom", "Super Famicom", "Game Boy", "Nintendo 64"],
+    "correctIndex": 0,
+    "explanation": "NES dikenal di Jepang sebagai Family Computer atau Famicom."
+  },
+  {
+    "id": "sk-s-09",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "PlayStation 3 awal menggunakan media optik...",
+    "options": ["CD", "DVD", "Blu-ray", "HD-DVD"],
+    "correctIndex": 2,
+    "explanation": "PlayStation 3 menggunakan Blu-ray Disc sebagai media utama."
+  },
+  {
+    "id": "sk-s-10",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Sega Mega Drive menggunakan CPU utama...",
+    "options": ["Motorola 68000", "Intel 386", "Zilog Z80", "ARM7"],
+    "correctIndex": 0,
+    "explanation": "Sega Mega Drive menggunakan CPU Motorola 68000."
+  },
+  {
+    "id": "sk-s-11",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol Dreamcast memiliki memory card dengan layar bernama...",
+    "options": ["VMU", "Memory Stick", "DualShock", "Rumble Pak"],
+    "correctIndex": 0,
+    "explanation": "VMU atau Visual Memory Unit adalah memory card Dreamcast yang memiliki layar LCD."
+  },
+  {
+    "id": "sk-s-12",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Nintendo 64 tetap menggunakan media...",
+    "options": ["Cartridge", "CD", "DVD", "MiniDisc"],
+    "correctIndex": 0,
+    "explanation": "Nintendo 64 menggunakan cartridge meskipun banyak konsol sezamannya memakai CD."
+  },
+  {
+    "id": "sk-s-13",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol mini yang dirilis Sony pada 2018 adalah...",
+    "options": ["PlayStation Classic", "NES Classic", "SNES Classic", "Mega Drive Mini"],
+    "correctIndex": 0,
+    "explanation": "PlayStation Classic dirilis pada tahun 2018 sebagai konsol mini."
+  },
+  {
+    "id": "sk-s-14",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol Sega yang merupakan add-on untuk Mega Drive adalah...",
+    "options": ["Sega 32X", "Sega Saturn", "Dreamcast", "Game Gear"],
+    "correctIndex": 0,
+    "explanation": "Sega 32X adalah add-on yang dipasang pada Sega Mega Drive."
+  },
+  {
+    "id": "sk-s-15",
+    "category": "sejarahKonsol",
+    "difficulty": "sedang",
+    "text": "Konsol yang pertama kali menggunakan controller nirkabel sebagai standar adalah...",
+    "options": ["Nintendo Wii", "GameCube", "Xbox 360", "PS3"],
+    "correctIndex": 0,
+    "explanation": "Nintendo Wii menggunakan Wii Remote nirkabel sebagai controller standar."
   },
   {
     "id": "sk-h-01",
@@ -36,6 +279,132 @@
     "explanation": "Fusajiro Yamauchi mendirikan Nintendo pada tahun 1889 untuk membuat kartu permainan buatan tangan bernama Hanafuda."
   },
   {
+    "id": "sk-h-02",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Chip Super FX digunakan pada konsol...",
+    "options": ["SNES", "NES", "Genesis", "Atari 2600"],
+    "correctIndex": 0,
+    "explanation": "Super FX adalah chip grafis tambahan yang digunakan pada cartridge SNES."
+  },
+  {
+    "id": "sk-h-03",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Konsol 3DO dikembangkan oleh perusahaan...",
+    "options": ["The 3DO Company", "Sony", "Panasonic", "Sega"],
+    "correctIndex": 0,
+    "explanation": "3DO dikembangkan oleh The 3DO Company yang didirikan oleh Trip Hawkins."
+  },
+  {
+    "id": "sk-h-04",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Neo Geo AES diproduksi oleh...",
+    "options": ["SNK", "Capcom", "Konami", "Namco"],
+    "correctIndex": 0,
+    "explanation": "Neo Geo AES adalah konsol rumah buatan SNK."
+  },
+  {
+    "id": "sk-h-05",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "TurboGrafx-16 dikenal di Jepang sebagai...",
+    "options": ["PC Engine", "Mega Drive", "Famicom", "Saturn"],
+    "correctIndex": 0,
+    "explanation": "TurboGrafx-16 dipasarkan di Jepang dengan nama PC Engine."
+  },
+  {
+    "id": "sk-h-06",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "PlayStation awalnya merupakan proyek kerja sama Sony dengan...",
+    "options": ["Nintendo", "Sega", "Microsoft", "Atari"],
+    "correctIndex": 0,
+    "explanation": "Sony awalnya bekerja sama dengan Nintendo untuk membuat add-on CD sebelum akhirnya mengembangkan PlayStation sendiri."
+  },
+  {
+    "id": "sk-h-07",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Konsol Xbox menggunakan chip grafis dari...",
+    "options": ["NVIDIA", "AMD", "Intel", "ATI"],
+    "correctIndex": 0,
+    "explanation": "Xbox generasi pertama menggunakan chip grafis NVIDIA NV2A."
+  },
+  {
+    "id": "sk-h-08",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Nama kode Nintendo GameCube adalah...",
+    "options": ["Dolphin", "Revolution", "Project Reality", "Ultra 64"],
+    "correctIndex": 0,
+    "explanation": "GameCube memiliki nama kode Dolphin selama pengembangannya."
+  },
+  {
+    "id": "sk-h-09",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Nama kode PlayStation Vita adalah...",
+    "options": ["NGP", "PSP2", "Vita", "Orbis"],
+    "correctIndex": 0,
+    "explanation": "PlayStation Vita dikenal dengan nama kode NGP atau Next Generation Portable."
+  },
+  {
+    "id": "sk-h-10",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Sega 32X adalah add-on untuk konsol...",
+    "options": ["Mega Drive", "Saturn", "Dreamcast", "Master System"],
+    "correctIndex": 0,
+    "explanation": "Sega 32X dipasang pada Mega Drive untuk meningkatkan kemampuannya."
+  },
+  {
+    "id": "sk-h-11",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Atari Jaguar dipasarkan sebagai konsol...",
+    "options": ["64-bit", "32-bit", "16-bit", "128-bit"],
+    "correctIndex": 0,
+    "explanation": "Atari Jaguar dipasarkan sebagai konsol 64-bit."
+  },
+  {
+    "id": "sk-h-12",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Bandai WonderSwan dirancang oleh...",
+    "options": ["Gunpei Yokoi", "Shigeru Miyamoto", "Hideo Kojima", "Satoru Iwata"],
+    "correctIndex": 0,
+    "explanation": "WonderSwan dirancang oleh Gunpei Yokoi setelah meninggalkan Nintendo."
+  },
+  {
+    "id": "sk-h-13",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Casio Loopy adalah konsol yang target utamanya...",
+    "options": ["Perempuan", "Anak-anak", "Hardcore gamer", "Bisnis"],
+    "correctIndex": 0,
+    "explanation": "Casio Loopy dipasarkan khusus untuk pemain perempuan di Jepang."
+  },
+  {
+    "id": "sk-h-14",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Konsol CD-i dikembangkan oleh...",
+    "options": ["Philips", "Sony", "Panasonic", "Sega"],
+    "correctIndex": 0,
+    "explanation": "CD-i dikembangkan dan dipasarkan oleh Philips."
+  },
+  {
+    "id": "sk-h-15",
+    "category": "sejarahKonsol",
+    "difficulty": "sulit",
+    "text": "Konsol FM Towns Marty diproduksi oleh...",
+    "options": ["Fujitsu", "NEC", "Sharp", "Toshiba"],
+    "correctIndex": 0,
+    "explanation": "FM Towns Marty adalah konsol buatan Fujitsu."
+  },
+  {
     "id": "gm-m-01",
     "category": "genreMekanik",
     "difficulty": "mudah",
@@ -45,6 +414,132 @@
     "explanation": "Istilah Gacha berasal dari 'Gashapon', yaitu mesin otomatis di Jepang yang mengeluarkan mainan dalam kapsul secara acak."
   },
   {
+    "id": "gm-m-02",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "RPG adalah singkatan dari...",
+    "options": ["Role-Playing Game", "Real-Time Strategy", "Rocket Propelled Grenade", "Random Play Game"],
+    "correctIndex": 0,
+    "explanation": "RPG adalah Role-Playing Game."
+  },
+  {
+    "id": "gm-m-03",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "FPS adalah singkatan dari...",
+    "options": ["First-Person Shooter", "Fast-Paced Strategy", "Final Player Score", "Full Play Station"],
+    "correctIndex": 0,
+    "explanation": "FPS adalah First-Person Shooter."
+  },
+  {
+    "id": "gm-m-04",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Game battle royale yang populer dengan mode 100 pemain adalah...",
+    "options": ["PUBG", "Minecraft", "Tetris", "FIFA"],
+    "correctIndex": 0,
+    "explanation": "PUBG mempopulerkan mode battle royale 100 pemain."
+  },
+  {
+    "id": "gm-m-05",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "MOBA adalah singkatan dari...",
+    "options": ["Multiplayer Online Battle Arena", "Massive Online Battle Adventure", "Multiplayer Online Board Arena", "Mobile Online Battle Action"],
+    "correctIndex": 0,
+    "explanation": "MOBA adalah Multiplayer Online Battle Arena."
+  },
+  {
+    "id": "gm-m-06",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Minecraft termasuk genre...",
+    "options": ["Sandbox", "Racing", "Rhythm", "Fighting"],
+    "correctIndex": 0,
+    "explanation": "Minecraft adalah game sandbox yang memberi kebebasan membangun dan menjelajah."
+  },
+  {
+    "id": "gm-m-07",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Mekanik mengumpulkan bahan untuk membuat item disebut...",
+    "options": ["Crafting", "Trading", "Grinding", "Farming"],
+    "correctIndex": 0,
+    "explanation": "Crafting adalah mekanik membuat item dari bahan yang dikumpulkan."
+  },
+  {
+    "id": "gm-m-08",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Super Mario termasuk genre...",
+    "options": ["Platformer", "MOBA", "FPS", "RTS"],
+    "correctIndex": 0,
+    "explanation": "Super Mario adalah game platformer klasik."
+  },
+  {
+    "id": "gm-m-09",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Tetris termasuk genre...",
+    "options": ["Puzzle", "Shooter", "RPG", "Simulation"],
+    "correctIndex": 0,
+    "explanation": "Tetris adalah game puzzle menyusun blok."
+  },
+  {
+    "id": "gm-m-10",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Stardew Valley banyak menggabungkan genre simulasi pertanian dan...",
+    "options": ["RPG", "FPS", "MOBA", "Racing"],
+    "correctIndex": 0,
+    "explanation": "Stardew Valley menggabungkan simulasi pertanian dengan elemen RPG."
+  },
+  {
+    "id": "gm-m-11",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Game ritme menuntut pemain menekan tombol sesuai...",
+    "options": ["Irama musik", "Peta", "Dialog", "Acak"],
+    "correctIndex": 0,
+    "explanation": "Game ritme mengandalkan sinkronisasi aksi dengan irama musik."
+  },
+  {
+    "id": "gm-m-12",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "GTA terkenal dengan dunia terbuka atau...",
+    "options": ["Open world", "Linear", "Arena", "Roguelike"],
+    "correctIndex": 0,
+    "explanation": "GTA menawarkan dunia terbuka yang luas untuk dijelajahi."
+  },
+  {
+    "id": "gm-m-13",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "World of Warcraft termasuk genre...",
+    "options": ["MMORPG", "MOBA", "FPS", "Puzzle"],
+    "correctIndex": 0,
+    "explanation": "World of Warcraft adalah MMORPG yang sangat populer."
+  },
+  {
+    "id": "gm-m-14",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Metal Gear terkenal dengan gameplay...",
+    "options": ["Stealth", "Racing", "Rhythm", "Sports"],
+    "correctIndex": 0,
+    "explanation": "Metal Gear adalah seri game stealth yang ikonik."
+  },
+  {
+    "id": "gm-m-15",
+    "category": "genreMekanik",
+    "difficulty": "mudah",
+    "text": "Street Fighter termasuk genre...",
+    "options": ["Fighting", "FPS", "RPG", "RTS"],
+    "correctIndex": 0,
+    "explanation": "Street Fighter adalah game fighting satu lawan satu."
+  },
+  {
     "id": "gm-s-01",
     "category": "genreMekanik",
     "difficulty": "sedang",
@@ -52,6 +547,132 @@
     "options": ["Metroidvania", "Soulslike", "Roguelike", "Hack and Slash"],
     "correctIndex": 1,
     "explanation": "Soulslike adalah sub-genre dari action RPG yang terinspirasi oleh seri Demon's Souls dan Dark Souls buatan FromSoftware."
+  },
+  {
+    "id": "gm-s-02",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Nama Metroidvania berasal dari gabungan seri...",
+    "options": ["Metroid dan Castlevania", "Metal Gear dan Contra", "Mega Man dan Castlevania", "Metroid dan Contra"],
+    "correctIndex": 0,
+    "explanation": "Metroidvania berasal dari Metroid dan Castlevania."
+  },
+  {
+    "id": "gm-s-03",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Battle royale modern dipopulerkan oleh game...",
+    "options": ["PUBG", "Dota 2", "CS:GO", "Overwatch"],
+    "correctIndex": 0,
+    "explanation": "PUBG mempopulerkan genre battle royale modern."
+  },
+  {
+    "id": "gm-s-04",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Permadeath berarti...",
+    "options": ["Kematian permanen", "Kematian sementara", "Tidak bisa mati", "Mati otomatis"],
+    "correctIndex": 0,
+    "explanation": "Permadeath berarti karakter mati secara permanen."
+  },
+  {
+    "id": "gm-s-05",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Procedural generation menghasilkan konten...",
+    "options": ["Acak", "Statis", "Manual", "Linear"],
+    "correctIndex": 0,
+    "explanation": "Procedural generation membuat konten secara acak atau algoritmik."
+  },
+  {
+    "id": "gm-s-06",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Bullet hell adalah genre dengan...",
+    "options": ["Banyak proyektil", "Sedikit musuh", "Tanpa peluru", "Hanya puzzle"],
+    "correctIndex": 0,
+    "explanation": "Bullet hell menampilkan banyak proyektil di layar."
+  },
+  {
+    "id": "gm-s-07",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Loot box adalah...",
+    "options": ["Kotak hadiah acak", "Peta rahasia", "Senjata permanen", "Mode cerita"],
+    "correctIndex": 0,
+    "explanation": "Loot box berisi item acak yang bisa didapat pemain."
+  },
+  {
+    "id": "gm-s-08",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "New Game+ memungkinkan pemain...",
+    "options": ["Mengulang game dengan item/upgrade", "Menghapus save", "Mulai dari nol", "Mengubah genre"],
+    "correctIndex": 0,
+    "explanation": "New Game+ membawa item atau upgrade ke permainan ulang."
+  },
+  {
+    "id": "gm-s-09",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Hitbox adalah...",
+    "options": ["Area deteksi serangan", "Jumlah nyawa", "Kecepatan internet", "Jenis kamera"],
+    "correctIndex": 0,
+    "explanation": "Hitbox adalah area yang menentukan apakah serangan mengenai target."
+  },
+  {
+    "id": "gm-s-10",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Frame data dalam fighting game berisi...",
+    "options": ["Data frame serangan", "Jumlah karakter", "Cerita", "Musik"],
+    "correctIndex": 0,
+    "explanation": "Frame data menjelaskan timing dan properti frame serangan."
+  },
+  {
+    "id": "gm-s-11",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "MMR dalam matchmaking digunakan untuk...",
+    "options": ["Menentukan skill", "Menyimpan save", "Membeli item", "Mengubah grafis"],
+    "correctIndex": 0,
+    "explanation": "MMR digunakan untuk mencocokkan pemain berdasarkan skill."
+  },
+  {
+    "id": "gm-s-12",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Pity system pada gacha berfungsi sebagai...",
+    "options": ["Jaminan setelah sekian pull", "Penghematan baterai", "Mode offline", "Toko item"],
+    "correctIndex": 0,
+    "explanation": "Pity system memberi jaminan item langka setelah sejumlah percobaan."
+  },
+  {
+    "id": "gm-s-13",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "RNG adalah singkatan dari...",
+    "options": ["Random Number Generator", "Real Network Game", "Rapid New Game", "Random New Gear"],
+    "correctIndex": 0,
+    "explanation": "RNG adalah Random Number Generator."
+  },
+  {
+    "id": "gm-s-14",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Role Tank dalam game biasanya...",
+    "options": ["Menahan damage", "Menyembuhkan", "Memberi damage jarak jauh", "Mengontrol ekonomi"],
+    "correctIndex": 0,
+    "explanation": "Tank bertugas menahan damage untuk melindungi tim."
+  },
+  {
+    "id": "gm-s-15",
+    "category": "genreMekanik",
+    "difficulty": "sedang",
+    "text": "Grinding berarti...",
+    "options": ["Mengulang aktivitas untuk progres", "Menyelesaikan cerita", "Membeli game", "Menghapus data"],
+    "correctIndex": 0,
+    "explanation": "Grinding adalah mengulang aktivitas untuk mendapatkan pengalaman atau item."
   },
   {
     "id": "gm-h-01",
@@ -66,6 +687,132 @@
     ],
     "correctIndex": 2,
     "explanation": "Roguelite mempertahankan elemen acak dan permadeath, namun memberikan upgrade atau item permanen yang terbawa antar run."
+  },
+  {
+    "id": "gm-h-02",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Immersive sim menekankan...",
+    "options": ["Gameplay sistemik dan kebebasan pemain", "Grafik fotorealistis", "Linearitas ketat", "Quick time event"],
+    "correctIndex": 0,
+    "explanation": "Immersive sim terkenal dengan sistem interaksi dan kebebasan pemain."
+  },
+  {
+    "id": "gm-h-03",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Metroidbrainia adalah genre yang gating-nya berdasarkan...",
+    "options": ["Pengetahuan pemain", "Level karakter", "Item langka", "Uang"],
+    "correctIndex": 0,
+    "explanation": "Metroidbrainia membuka progres berdasarkan pengetahuan pemain, bukan item."
+  },
+  {
+    "id": "gm-h-04",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Slay the Spire adalah contoh genre...",
+    "options": ["Deckbuilding roguelike", "MOBA", "FPS", "RTS"],
+    "correctIndex": 0,
+    "explanation": "Slay the Spire menggabungkan deckbuilding dengan elemen roguelike."
+  },
+  {
+    "id": "gm-h-05",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Escape from Tarkov termasuk genre...",
+    "options": ["Extraction shooter", "Bullet hell", "Auto battler", "Rhythm"],
+    "correctIndex": 0,
+    "explanation": "Escape from Tarkov adalah extraction shooter."
+  },
+  {
+    "id": "gm-h-06",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Auto battler populer berawal dari mod...",
+    "options": ["Dota Auto Chess", "Counter-Strike", "Team Fortress", "StarCraft"],
+    "correctIndex": 0,
+    "explanation": "Dota Auto Chess mempopulerkan genre auto battler."
+  },
+  {
+    "id": "gm-h-07",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Bullet time dipopulerkan oleh game...",
+    "options": ["Max Payne", "Doom", "Tetris", "Minecraft"],
+    "correctIndex": 0,
+    "explanation": "Max Payne mempopulerkan mekanik bullet time."
+  },
+  {
+    "id": "gm-h-08",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "QTE adalah singkatan dari...",
+    "options": ["Quick Time Event", "Quick Turn Engine", "Quest Time End", "Quality Text Effect"],
+    "correctIndex": 0,
+    "explanation": "QTE adalah Quick Time Event."
+  },
+  {
+    "id": "gm-h-09",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Hitstop adalah efek...",
+    "options": ["Jeda singkat saat serangan mengenai", "Getaran kamera", "Motion blur", "Slow internet"],
+    "correctIndex": 0,
+    "explanation": "Hitstop memberi jeda singkat agar serangan terasa berbobot."
+  },
+  {
+    "id": "gm-h-10",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "I-frames berarti...",
+    "options": ["Frame kebal serangan", "Frame invasi", "Frame input", "Frame akhir"],
+    "correctIndex": 0,
+    "explanation": "I-frames adalah frame saat karakter kebal terhadap serangan."
+  },
+  {
+    "id": "gm-h-11",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Rollback netcode berguna untuk...",
+    "options": ["Mengurangi lag input online", "Menambah grafis", "Menyimpan replay", "Mengubah FOV"],
+    "correctIndex": 0,
+    "explanation": "Rollback netcode mengurangi dampak lag pada game online."
+  },
+  {
+    "id": "gm-h-12",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Games as a service adalah model...",
+    "options": ["Live service berkelanjutan", "Game sekali beli", "Game offline", "Demo gratis"],
+    "correctIndex": 0,
+    "explanation": "Games as a service diperbarui dan dimonetisasi secara berkelanjutan."
+  },
+  {
+    "id": "gm-h-13",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Ludonarrative dissonance adalah konflik antara...",
+    "options": ["Cerita dan gameplay", "Grafis dan suara", "Pemain dan NPC", "Musik dan dialog"],
+    "correctIndex": 0,
+    "explanation": "Ludonarrative dissonance terjadi saat cerita bertentangan dengan mekanik gameplay."
+  },
+  {
+    "id": "gm-h-14",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Emergent gameplay muncul dari...",
+    "options": ["Interaksi sistem game", "Cutscene", "Tutorial", "Menu"],
+    "correctIndex": 0,
+    "explanation": "Emergent gameplay lahir dari interaksi sistem yang tidak selalu dirancang eksplisit."
+  },
+  {
+    "id": "gm-h-15",
+    "category": "genreMekanik",
+    "difficulty": "sulit",
+    "text": "Rubber banding AI bertujuan...",
+    "options": ["Menyesuaikan kesulitan dengan pemain", "Membuat AI statis", "Menghapus AI", "Mengubah genre"],
+    "correctIndex": 0,
+    "explanation": "Rubber banding AI menyesuaikan perilaku agar kompetisi tetap seimbang."
   },
   {
     "id": "kd-m-01",
@@ -95,6 +842,384 @@
     "explanation": "Shigeru Miyamoto adalah perancang game legendaris Nintendo yang menciptakan Mario, Zelda, Donkey Kong, Pikmin, dan Star Fox."
   },
   {
+    "id": "kd-m-02",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Saudara Mario yang sering bermain bersama adalah...",
+    "options": ["Luigi", "Wario", "Toad", "Yoshi"],
+    "correctIndex": 0,
+    "explanation": "Luigi adalah saudara Mario."
+  },
+  {
+    "id": "kd-m-03",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Putri Zelda tinggal di kerajaan...",
+    "options": ["Hyrule", "Mushroom Kingdom", "Mobius", "Azeroth"],
+    "correctIndex": 0,
+    "explanation": "Zelda tinggal di kerajaan Hyrule."
+  },
+  {
+    "id": "kd-m-04",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Musuh utama Mario adalah...",
+    "options": ["Bowser", "Ganondorf", "Dr. Eggman", "Sephiroth"],
+    "correctIndex": 0,
+    "explanation": "Bowser adalah antagonis utama dalam seri Super Mario."
+  },
+  {
+    "id": "kd-m-05",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Karakter kuning pemakan titik dalam labirin adalah...",
+    "options": ["Pac-Man", "Sonic", "Kirby", "Mega Man"],
+    "correctIndex": 0,
+    "explanation": "Pac-Man memakan titik dan buah di labirin."
+  },
+  {
+    "id": "kd-m-06",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Maskot utama Pokémon adalah...",
+    "options": ["Pikachu", "Charizard", "Bulbasaur", "Eevee"],
+    "correctIndex": 0,
+    "explanation": "Pikachu adalah maskot utama Pokémon."
+  },
+  {
+    "id": "kd-m-07",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Master Chief adalah karakter dari seri...",
+    "options": ["Halo", "Gears of War", "Doom", "Metroid"],
+    "correctIndex": 0,
+    "explanation": "Master Chief adalah protagonis seri Halo."
+  },
+  {
+    "id": "kd-m-08",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Lara Croft adalah karakter dari seri...",
+    "options": ["Tomb Raider", "Uncharted", "Assassin's Creed", "Prince of Persia"],
+    "correctIndex": 0,
+    "explanation": "Lara Croft adalah protagonis Tomb Raider."
+  },
+  {
+    "id": "kd-m-09",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Kratos adalah karakter dari seri...",
+    "options": ["God of War", "Devil May Cry", "Bayonetta", "Dark Souls"],
+    "correctIndex": 0,
+    "explanation": "Kratos adalah protagonis God of War."
+  },
+  {
+    "id": "kd-m-10",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Link biasanya menggunakan senjata bernama...",
+    "options": ["Master Sword", "Buster Sword", "Keyblade", "Lightsaber"],
+    "correctIndex": 0,
+    "explanation": "Master Sword adalah pedang ikonik Link."
+  },
+  {
+    "id": "kd-m-11",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Partner setia Sonic yang dapat terbang adalah...",
+    "options": ["Tails", "Knuckles", "Shadow", "Amy"],
+    "correctIndex": 0,
+    "explanation": "Tails adalah sahabat Sonic yang bisa terbang."
+  },
+  {
+    "id": "kd-m-12",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Donkey Kong dikenal memakai...",
+    "options": ["Dasi merah", "Topi merah", "Kacamata", "Jubah"],
+    "correctIndex": 0,
+    "explanation": "Donkey Kong identik dengan dasi merahnya."
+  },
+  {
+    "id": "kd-m-13",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Steve adalah karakter utama dari...",
+    "options": ["Minecraft", "Roblox", "Terraria", "Fortnite"],
+    "correctIndex": 0,
+    "explanation": "Steve adalah karakter default Minecraft."
+  },
+  {
+    "id": "kd-m-14",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Geralt adalah karakter dari seri...",
+    "options": ["The Witcher", "Elder Scrolls", "Dark Souls", "Dragon Age"],
+    "correctIndex": 0,
+    "explanation": "Geralt of Rivia adalah protagonis The Witcher."
+  },
+  {
+    "id": "kd-m-15",
+    "category": "karakterDunia",
+    "difficulty": "mudah",
+    "text": "Sephiroth adalah antagonis dari...",
+    "options": ["Final Fantasy VII", "Kingdom Hearts", "Chrono Trigger", "Persona 5"],
+    "correctIndex": 0,
+    "explanation": "Sephiroth adalah antagonis ikonik Final Fantasy VII."
+  },
+  {
+    "id": "kd-s-02",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Nama asli Solid Snake adalah...",
+    "options": ["David", "John", "Jack", "Solid"],
+    "correctIndex": 0,
+    "explanation": "Solid Snake memiliki nama asli David."
+  },
+  {
+    "id": "kd-s-03",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Kerajaan tempat Sonic tinggal sering disebut...",
+    "options": ["Mobius", "Hyrule", "Mushroom Kingdom", "Azeroth"],
+    "correctIndex": 0,
+    "explanation": "Dalam beberapa kanon, dunia Sonic disebut Mobius."
+  },
+  {
+    "id": "kd-s-04",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Kota fiksi utama di GTA V adalah...",
+    "options": ["Los Santos", "Liberty City", "Vice City", "San Fierro"],
+    "correctIndex": 0,
+    "explanation": "GTA V berlatar di Los Santos."
+  },
+  {
+    "id": "kd-s-05",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Dunia utama dalam The Witcher disebut...",
+    "options": ["Continent", "Middle-earth", "Tamriel", "Azeroth"],
+    "correctIndex": 0,
+    "explanation": "The Witcher berlatar di dunia yang disebut Continent."
+  },
+  {
+    "id": "kd-s-06",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama Horizon Zero Dawn adalah...",
+    "options": ["Aloy", "Ellie", "Lara", "Samus"],
+    "correctIndex": 0,
+    "explanation": "Aloy adalah protagonis Horizon Zero Dawn."
+  },
+  {
+    "id": "kd-s-07",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama The Last of Us Part I adalah...",
+    "options": ["Joel dan Ellie", "Nathan dan Sam", "Kratos dan Atreus", "Aloy dan Rost"],
+    "correctIndex": 0,
+    "explanation": "Joel dan Ellie adalah tokoh utama The Last of Us Part I."
+  },
+  {
+    "id": "kd-s-08",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Antagonis utama The Legend of Zelda adalah...",
+    "options": ["Ganondorf", "Bowser", "Dr. Eggman", "Sephiroth"],
+    "correctIndex": 0,
+    "explanation": "Ganondorf adalah antagonis utama seri Zelda."
+  },
+  {
+    "id": "kd-s-09",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Perusahaan fiksi dalam Half-Life adalah...",
+    "options": ["Black Mesa", "Aperture Science", "Umbrella", "Abstergo"],
+    "correctIndex": 0,
+    "explanation": "Black Mesa adalah fasilitas penelitian dalam Half-Life."
+  },
+  {
+    "id": "kd-s-10",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Kota utama Cyberpunk 2077 adalah...",
+    "options": ["Night City", "Los Santos", "Rapture", "Columbia"],
+    "correctIndex": 0,
+    "explanation": "Cyberpunk 2077 berlatar di Night City."
+  },
+  {
+    "id": "kd-s-11",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama Halo dikenal sebagai...",
+    "options": ["Master Chief", "Commander Shepard", "Marcus Fenix", "Doom Slayer"],
+    "correctIndex": 0,
+    "explanation": "Master Chief adalah protagonis utama Halo."
+  },
+  {
+    "id": "kd-s-12",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama Metroid adalah...",
+    "options": ["Samus Aran", "Alucard", "Bayonetta", "Lara Croft"],
+    "correctIndex": 0,
+    "explanation": "Samus Aran adalah protagonis Metroid."
+  },
+  {
+    "id": "kd-s-13",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama Assassin's Creed II adalah...",
+    "options": ["Ezio Auditore", "Altair", "Connor", "Edward"],
+    "correctIndex": 0,
+    "explanation": "Ezio Auditore adalah protagonis Assassin's Creed II."
+  },
+  {
+    "id": "kd-s-14",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama The Legend of Zelda: Breath of the Wild adalah...",
+    "options": ["Link", "Zelda", "Ganondorf", "Midna"],
+    "correctIndex": 0,
+    "explanation": "Link adalah karakter yang dimainkan di Breath of the Wild."
+  },
+  {
+    "id": "kd-s-15",
+    "category": "karakterDunia",
+    "difficulty": "sedang",
+    "text": "Karakter utama God of War (2018) selain Kratos adalah...",
+    "options": ["Atreus", "Boy", "Baldur", "Thor"],
+    "correctIndex": 0,
+    "explanation": "Atreus adalah putra Kratos dalam God of War 2018."
+  },
+  {
+    "id": "kd-h-02",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Nama asli Bowser dalam seri Mario adalah...",
+    "options": ["King Koopa", "King Boo", "King K. Rool", "King Dedede"],
+    "correctIndex": 0,
+    "explanation": "Bowser juga dikenal sebagai King Koopa."
+  },
+  {
+    "id": "kd-h-03",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Silent Hill 2 adalah...",
+    "options": ["James Sunderland", "Harry Mason", "Heather Mason", "Pyramid Head"],
+    "correctIndex": 0,
+    "explanation": "James Sunderland adalah protagonis Silent Hill 2."
+  },
+  {
+    "id": "kd-h-04",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Planescape: Torment adalah...",
+    "options": ["The Nameless One", "Morte", "Dak'kon", "Annah"],
+    "correctIndex": 0,
+    "explanation": "The Nameless One adalah protagonis Planescape: Torment."
+  },
+  {
+    "id": "kd-h-05",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Disco Elysium adalah...",
+    "options": ["Harry Du Bois", "Kim Kitsuragi", "Cuno", "Measurehead"],
+    "correctIndex": 0,
+    "explanation": "Harry Du Bois adalah detektif yang dimainkan di Disco Elysium."
+  },
+  {
+    "id": "kd-h-06",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Sekiro: Shadows Die Twice adalah...",
+    "options": ["Wolf", "Sekiro", "Kuro", "Genichiro"],
+    "correctIndex": 0,
+    "explanation": "Wolf adalah shinobi yang menjadi protagonis Sekiro."
+  },
+  {
+    "id": "kd-h-07",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Bloodborne disebut...",
+    "options": ["The Hunter", "The Tarnished", "The Chosen Undead", "The Ashen One"],
+    "correctIndex": 0,
+    "explanation": "Pemain berperan sebagai The Hunter di Bloodborne."
+  },
+  {
+    "id": "kd-h-08",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Dark Souls disebut...",
+    "options": ["Chosen Undead", "Tarnished", "Hunter", "Bearer of the Curse"],
+    "correctIndex": 0,
+    "explanation": "Protagonis Dark Souls dikenal sebagai Chosen Undead."
+  },
+  {
+    "id": "kd-h-09",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Elden Ring disebut...",
+    "options": ["Tarnished", "Chosen Undead", "Hunter", "Dragonborn"],
+    "correctIndex": 0,
+    "explanation": "Pemain berperan sebagai Tarnished di Elden Ring."
+  },
+  {
+    "id": "kd-h-10",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Red Dead Redemption 2 adalah...",
+    "options": ["Arthur Morgan", "John Marston", "Dutch van der Linde", "Micah Bell"],
+    "correctIndex": 0,
+    "explanation": "Arthur Morgan adalah protagonis Red Dead Redemption 2."
+  },
+  {
+    "id": "kd-h-11",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Death Stranding adalah...",
+    "options": ["Sam Porter Bridges", "Cliff Unger", "Higgs", "Die-Hardman"],
+    "correctIndex": 0,
+    "explanation": "Sam Porter Bridges adalah protagonis Death Stranding."
+  },
+  {
+    "id": "kd-h-12",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Control adalah...",
+    "options": ["Jesse Faden", "Dylan Faden", "Ahti", "The Hiss"],
+    "correctIndex": 0,
+    "explanation": "Jesse Faden adalah protagonis Control."
+  },
+  {
+    "id": "kd-h-13",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Nier: Automata adalah...",
+    "options": ["2B", "9S", "A2", "Emil"],
+    "correctIndex": 0,
+    "explanation": "2B adalah salah satu protagonis utama Nier: Automata."
+  },
+  {
+    "id": "kd-h-14",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama Horizon Forbidden West adalah...",
+    "options": ["Aloy", "Beta", "Sylens", "Varl"],
+    "correctIndex": 0,
+    "explanation": "Aloy kembali menjadi protagonis Horizon Forbidden West."
+  },
+  {
+    "id": "kd-h-15",
+    "category": "karakterDunia",
+    "difficulty": "sulit",
+    "text": "Karakter utama The Witcher 3 adalah...",
+    "options": ["Geralt of Rivia", "Ciri", "Yennefer", "Triss"],
+    "correctIndex": 0,
+    "explanation": "Geralt of Rivia adalah protagonis utama The Witcher 3."
+  },
+  {
     "id": "es-m-01",
     "category": "esports",
     "difficulty": "mudah",
@@ -120,5 +1245,383 @@
     "options": ["Tekken 5", "Street Fighter III: 3rd Strike", "Super Smash Bros. Melee", "Guilty Gear X2"],
     "correctIndex": 1,
     "explanation": "Daigo Umehara melakukan parry 15 pukulan beruntun dari Justin Wong menggunakan Chun-Li di Street Fighter III: 3rd Strike."
+  },
+  {
+    "id": "es-m-02",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Turnamen dunia League of Legends disebut...",
+    "options": ["Worlds", "The International", "Major", "EVO"],
+    "correctIndex": 0,
+    "explanation": "Worlds adalah turnamen dunia League of Legends."
+  },
+  {
+    "id": "es-m-03",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Game MOBA mobile populer di Indonesia adalah...",
+    "options": ["Mobile Legends", "Dota 2", "CS:GO", "StarCraft"],
+    "correctIndex": 0,
+    "explanation": "Mobile Legends sangat populer di Indonesia."
+  },
+  {
+    "id": "es-m-04",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Turnamen tahunan Dota 2 adalah...",
+    "options": ["The International", "Worlds", "Major", "M-Series"],
+    "correctIndex": 0,
+    "explanation": "The International adalah turnamen tahunan Dota 2."
+  },
+  {
+    "id": "es-m-05",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Game tactical shooter 5v5 dari Riot Games adalah...",
+    "options": ["Valorant", "Overwatch", "CS:GO", "Rainbow Six"],
+    "correctIndex": 0,
+    "explanation": "Valorant adalah tactical shooter 5v5 buatan Riot Games."
+  },
+  {
+    "id": "es-m-06",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Game battle royale yang sering dijadikan esports adalah...",
+    "options": ["PUBG", "Minecraft", "Tetris", "FIFA"],
+    "correctIndex": 0,
+    "explanation": "PUBG adalah battle royale yang memiliki scene esports besar."
+  },
+  {
+    "id": "es-m-07",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Turnamen besar CS:GO disebut...",
+    "options": ["Major", "Worlds", "The International", "EVO"],
+    "correctIndex": 0,
+    "explanation": "Major adalah turnamen tingkat tertinggi CS:GO."
+  },
+  {
+    "id": "es-m-08",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "EVO adalah turnamen utama untuk genre...",
+    "options": ["Fighting", "MOBA", "FPS", "RTS"],
+    "correctIndex": 0,
+    "explanation": "EVO adalah turnamen fighting game terbesar."
+  },
+  {
+    "id": "es-m-09",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "StarCraft terkenal sebagai game esports genre...",
+    "options": ["RTS", "MOBA", "FPS", "Fighting"],
+    "correctIndex": 0,
+    "explanation": "StarCraft adalah game RTS legendaris."
+  },
+  {
+    "id": "es-m-10",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "PUBG Mobile memiliki turnamen dunia bernama...",
+    "options": ["PMGC", "Worlds", "TI", "Major"],
+    "correctIndex": 0,
+    "explanation": "PMGC adalah PUBG Mobile Global Championship."
+  },
+  {
+    "id": "es-m-11",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Organisasi esports terkenal asal Eropa adalah...",
+    "options": ["G2 Esports", "T1", "Cloud9", "Evil Geniuses"],
+    "correctIndex": 0,
+    "explanation": "G2 Esports adalah organisasi esports asal Eropa."
+  },
+  {
+    "id": "es-m-12",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Game esports balap populer adalah...",
+    "options": ["Rocket League", "FIFA", "NBA 2K", "Tekken"],
+    "correctIndex": 0,
+    "explanation": "Rocket League menggabungkan sepak bola dan mobil."
+  },
+  {
+    "id": "es-m-13",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "FIFAe World Cup adalah turnamen esports untuk game...",
+    "options": ["Sepak bola", "MOBA", "FPS", "Fighting"],
+    "correctIndex": 0,
+    "explanation": "FIFAe World Cup adalah turnamen esports sepak bola."
+  },
+  {
+    "id": "es-m-14",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Teamfight Tactics adalah game auto battler dari...",
+    "options": ["Riot Games", "Valve", "Blizzard", "Epic Games"],
+    "correctIndex": 0,
+    "explanation": "Teamfight Tactics dikembangkan oleh Riot Games."
+  },
+  {
+    "id": "es-m-15",
+    "category": "esports",
+    "difficulty": "mudah",
+    "text": "Overwatch adalah game hero shooter dari...",
+    "options": ["Blizzard", "Riot", "Valve", "EA"],
+    "correctIndex": 0,
+    "explanation": "Overwatch dikembangkan oleh Blizzard."
+  },
+  {
+    "id": "es-s-02",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Worlds League of Legends diselenggarakan oleh...",
+    "options": ["Riot Games", "Valve", "Blizzard", "Epic Games"],
+    "correctIndex": 0,
+    "explanation": "Worlds diselenggarakan oleh Riot Games."
+  },
+  {
+    "id": "es-s-03",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "The International pertama diadakan pada tahun...",
+    "options": ["2011", "2012", "2013", "2014"],
+    "correctIndex": 0,
+    "explanation": "The International pertama diadakan pada tahun 2011."
+  },
+  {
+    "id": "es-s-04",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "EVO adalah singkatan dari...",
+    "options": ["Evolution Championship Series", "Electronic Video Organization", "Esports Victory Open", "Elite Versus Online"],
+    "correctIndex": 0,
+    "explanation": "EVO adalah Evolution Championship Series."
+  },
+  {
+    "id": "es-s-05",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Tim legendaris Faker di League of Legends adalah...",
+    "options": ["T1", "G2", "Fnatic", "Cloud9"],
+    "correctIndex": 0,
+    "explanation": "Faker dikenal sebagai pemain T1."
+  },
+  {
+    "id": "es-s-06",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Pemain legendaris Dota 2 asal Ukraina adalah...",
+    "options": ["Dendi", "Miracle", "Sumail", "Arteezy"],
+    "correctIndex": 0,
+    "explanation": "Dendi adalah pemain legendaris Dota 2 asal Ukraina."
+  },
+  {
+    "id": "es-s-07",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Overwatch League diselenggarakan oleh...",
+    "options": ["Blizzard", "Riot", "Valve", "ESL"],
+    "correctIndex": 0,
+    "explanation": "Overwatch League diselenggarakan oleh Blizzard."
+  },
+  {
+    "id": "es-s-08",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Valorant Champions adalah turnamen dunia untuk game...",
+    "options": ["Valorant", "CS:GO", "Overwatch", "PUBG"],
+    "correctIndex": 0,
+    "explanation": "Valorant Champions adalah turnamen dunia Valorant."
+  },
+  {
+    "id": "es-s-09",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "FIFAe World Cup adalah turnamen resmi dari...",
+    "options": ["FIFA", "Riot", "Valve", "Blizzard"],
+    "correctIndex": 0,
+    "explanation": "FIFAe World Cup diselenggarakan oleh FIFA."
+  },
+  {
+    "id": "es-s-10",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "Rocket League dikembangkan oleh...",
+    "options": ["Psyonix", "Riot", "Valve", "Epic Games"],
+    "correctIndex": 0,
+    "explanation": "Rocket League dikembangkan oleh Psyonix."
+  },
+  {
+    "id": "es-s-11",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "ESL adalah salah satu...",
+    "options": ["Organizer turnamen esports", "Tim MOBA", "Game FPS", "Platform streaming"],
+    "correctIndex": 0,
+    "explanation": "ESL adalah organisasi penyelenggara turnamen esports."
+  },
+  {
+    "id": "es-s-12",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "PGL Major adalah turnamen untuk game...",
+    "options": ["CS:GO", "Dota 2", "LoL", "Valorant"],
+    "correctIndex": 0,
+    "explanation": "PGL Major adalah turnamen CS:GO."
+  },
+  {
+    "id": "es-s-13",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "MSI adalah turnamen internasional untuk...",
+    "options": ["League of Legends", "Dota 2", "CS:GO", "PUBG"],
+    "correctIndex": 0,
+    "explanation": "MSI atau Mid-Season Invitational adalah turnamen League of Legends."
+  },
+  {
+    "id": "es-s-14",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "League of Legends: Wild Rift dikembangkan oleh...",
+    "options": ["Riot Games", "Tencent", "Moonton", "Valve"],
+    "correctIndex": 0,
+    "explanation": "Wild Rift dikembangkan oleh Riot Games."
+  },
+  {
+    "id": "es-s-15",
+    "category": "esports",
+    "difficulty": "sedang",
+    "text": "The International 10 diadakan di negara...",
+    "options": ["Rumania", "Swedia", "China", "Amerika Serikat"],
+    "correctIndex": 0,
+    "explanation": "The International 10 diadakan di Bucharest, Rumania."
+  },
+  {
+    "id": "es-h-02",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Nama asli Faker adalah...",
+    "options": ["Lee Sang-hyeok", "Lee Sang-hyuk", "Kim Sang-hyeok", "Park Sang-hyeok"],
+    "correctIndex": 0,
+    "explanation": "Faker memiliki nama asli Lee Sang-hyeok."
+  },
+  {
+    "id": "es-h-03",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Tim yang memenangkan The International pertama adalah...",
+    "options": ["Natus Vincere", "Alliance", "OG", "Team Liquid"],
+    "correctIndex": 0,
+    "explanation": "Natus Vincere memenangkan The International 2011."
+  },
+  {
+    "id": "es-h-04",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Pemain CS:GO legendaris asal Ukraina adalah...",
+    "options": ["s1mple", "dev1ce", "ZywOo", "NiKo"],
+    "correctIndex": 0,
+    "explanation": "s1mple adalah pemain CS:GO legendaris asal Ukraina."
+  },
+  {
+    "id": "es-h-05",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "VCT Champions adalah turnamen dunia untuk...",
+    "options": ["Valorant", "CS:GO", "Overwatch", "Apex Legends"],
+    "correctIndex": 0,
+    "explanation": "VCT Champions adalah turnamen dunia Valorant."
+  },
+  {
+    "id": "es-h-06",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Game arena FPS legendaris yang sering di esports adalah...",
+    "options": ["Quake", "Minecraft", "Tetris", "FIFA"],
+    "correctIndex": 0,
+    "explanation": "Quake adalah arena FPS legendaris di esports."
+  },
+  {
+    "id": "es-h-07",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "OSL adalah turnamen legendaris untuk game...",
+    "options": ["StarCraft", "Dota 2", "LoL", "CS:GO"],
+    "correctIndex": 0,
+    "explanation": "OSL adalah turnamen StarCraft legendaris di Korea."
+  },
+  {
+    "id": "es-h-08",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Organisasi esports asal Amerika Serikat adalah...",
+    "options": ["Cloud9", "T1", "G2", "Fnatic"],
+    "correctIndex": 0,
+    "explanation": "Cloud9 adalah organisasi esports asal Amerika Serikat."
+  },
+  {
+    "id": "es-h-09",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Pemain legendaris Evo Moment 37 adalah...",
+    "options": ["Daigo Umehara", "Justin Wong", "Tokido", "Mago"],
+    "correctIndex": 0,
+    "explanation": "Daigo Umehara melakukan parry legendaris di Evo Moment 37."
+  },
+  {
+    "id": "es-h-10",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Turnamen Mid-Season Invitational disingkat...",
+    "options": ["MSI", "MSC", "MIS", "MSC"],
+    "correctIndex": 0,
+    "explanation": "Mid-Season Invitational disingkat MSI."
+  },
+  {
+    "id": "es-h-11",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "PGC adalah turnamen dunia untuk...",
+    "options": ["PUBG", "CS:GO", "Dota 2", "LoL"],
+    "correctIndex": 0,
+    "explanation": "PGC adalah PUBG Global Championship."
+  },
+  {
+    "id": "es-h-12",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "M-Series adalah turnamen esports untuk...",
+    "options": ["Mobile Legends", "PUBG Mobile", "Free Fire", "Valorant"],
+    "correctIndex": 0,
+    "explanation": "M-Series adalah turnamen Mobile Legends."
+  },
+  {
+    "id": "es-h-13",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "The International 2016 dimenangkan oleh tim...",
+    "options": ["Wings Gaming", "OG", "Team Liquid", "Evil Geniuses"],
+    "correctIndex": 0,
+    "explanation": "Wings Gaming memenangkan The International 2016."
+  },
+  {
+    "id": "es-h-14",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "Pemain Dota 2 dengan julukan 'Miracle-' adalah...",
+    "options": ["Amer Al-Barkawi", "Sumail Hassan", "Artour Babaev", "Danil Ishutin"],
+    "correctIndex": 0,
+    "explanation": "Miracle- adalah Amer Al-Barkawi."
+  },
+  {
+    "id": "es-h-15",
+    "category": "esports",
+    "difficulty": "sulit",
+    "text": "League of Legends World Championship 2023 dimenangkan oleh...",
+    "options": ["T1", "JDG", "Weibo Gaming", "Gen.G"],
+    "correctIndex": 0,
+    "explanation": "T1 memenangkan Worlds 2023."
   }
 ]
