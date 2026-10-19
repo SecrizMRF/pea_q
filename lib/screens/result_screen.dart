@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../core/constants/app_strings.dart';
-import '../core/utils/formatters.dart';
 import '../core/utils/responsive.dart';
 import '../providers/leaderboard_provider.dart';
 import '../providers/quiz_provider.dart';
 import '../widgets/app_background.dart';
+import '../widgets/primary_button.dart';
+import '../widgets/score_summary_card.dart';
 
 class ResultScreen extends StatefulWidget {
   const ResultScreen({super.key});
@@ -104,76 +105,36 @@ class _ResultScreenState extends State<ResultScreen> {
                     label: Text(
                       category.label,
                       style: TextStyle(
-                        color: isDark ? categoryColor.withValues(alpha: 0.95) : categoryColor,
+                        color: isDark
+                            ? categoryColor.withValues(alpha: 0.95)
+                            : categoryColor,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    backgroundColor: categoryColor.withValues(alpha: isDark ? 0.25 : 0.15),
+                    backgroundColor:
+                        categoryColor.withValues(alpha: isDark ? 0.25 : 0.15),
                     side: BorderSide(color: categoryColor),
                   ),
                 ),
                 const SizedBox(height: 16),
-                Card(
-                  child: Padding(
-                    padding: const EdgeInsets.all(24.0),
-                    child: Column(
-                      children: [
-                        Text(
-                          'Skor Akhir',
-                          style: theme.textTheme.bodyLarge,
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          AppFormatters.formatScore(score),
-                          style: theme.textTheme.displayLarge?.copyWith(
-                            fontSize: 40,
-                            color: theme.colorScheme.primary,
-                          ),
-                        ),
-                        const Divider(height: 32),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
-                          children: [
-                            Column(
-                              children: [
-                                Text('Benar', style: theme.textTheme.bodyMedium),
-                                const SizedBox(height: 4),
-                                Text(
-                                  '$correct / $total',
-                                  style: theme.textTheme.titleLarge?.copyWith(
-                                    color: Colors.green,
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Text('Akurasi', style: theme.textTheme.bodyMedium),
-                                const SizedBox(height: 4),
-                                Text(
-                                  AppFormatters.formatPercentage(correct, total),
-                                  style: theme.textTheme.titleLarge,
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
+                ScoreSummaryCard(
+                  score: score,
+                  correctCount: correct,
+                  totalQuestions: total,
                 ),
                 const SizedBox(height: 24),
-                ElevatedButton.icon(
+                PrimaryButton(
                   onPressed: () {
                     Navigator.of(context).pushNamed(AppStrings.routeReview);
                   },
-                  icon: const Icon(Icons.rate_review_rounded),
-                  label: const Text('REVIEW JAWABAN'),
+                  icon: Icons.rate_review_rounded,
+                  label: 'REVIEW JAWABAN',
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: () {
-                    Navigator.of(context).pushNamed(AppStrings.routeLeaderboard);
+                    Navigator.of(context)
+                        .pushNamed(AppStrings.routeLeaderboard);
                   },
                   icon: const Icon(Icons.leaderboard_rounded),
                   label: const Text('LIHAT LEADERBOARD'),

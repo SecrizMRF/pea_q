@@ -1,5 +1,5 @@
 class AppStrings {
-  static const String appName = 'PixelQuiz';
+  static const String appName = 'PeaQook';
   static const String appSubtitle = 'Kuis Pilihan Ganda Dunia Video Game';
 
   // Route Names

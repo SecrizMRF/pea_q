@@ -6,7 +6,7 @@ import 'package:pea_q/providers/quiz_provider.dart';
 import 'package:pea_q/providers/theme_provider.dart';
 
 void main() {
-  testWidgets('PixelQuiz app smoke test', (WidgetTester tester) async {
+  testWidgets('PeaQook app smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(
       MultiProvider(
         providers: [
@@ -18,7 +18,7 @@ void main() {
       ),
     );
 
-    expect(find.text('PixelQuiz'), findsOneWidget);
+    expect(find.text('PeaQook'), findsOneWidget);
 
     // Fast-forward splash timer to avoid pending timer error
     await tester.pump(const Duration(milliseconds: 2500));

@@ -4,6 +4,7 @@ import '../core/constants/app_strings.dart';
 import '../core/utils/responsive.dart';
 import '../data/question_repository.dart';
 import '../widgets/app_background.dart';
+import '../widgets/peaqook_logo.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -80,25 +81,8 @@ class _SplashScreenState extends State<SplashScreen>
                 scale: _scaleAnimation,
                 child: FadeTransition(
                   opacity: _fadeAnimation,
-                  child: Container(
-                    padding: const EdgeInsets.all(24),
-                    decoration: BoxDecoration(
-                      color: theme.colorScheme.primary,
-                      shape: BoxShape.circle,
-                      boxShadow: [
-                        BoxShadow(
-                          color:
-                              theme.colorScheme.primary.withValues(alpha: 0.4),
-                          blurRadius: 20,
-                          spreadRadius: 5,
-                        )
-                      ],
-                    ),
-                    child: Icon(
-                      Icons.sports_esports_rounded,
-                      size: context.sw(18).clamp(64, 120),
-                      color: Colors.white,
-                    ),
+                  child: PeaQookLogo(
+                    size: context.sw(25).clamp(90, 150),
                   ),
                 ),
               ),

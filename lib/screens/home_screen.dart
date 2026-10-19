@@ -6,6 +6,7 @@ import '../core/utils/responsive.dart';
 import '../providers/quiz_provider.dart';
 import '../widgets/app_background.dart';
 import '../widgets/app_text_field.dart';
+import '../widgets/peaqook_logo.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/theme_toggle_button.dart';
 
@@ -67,14 +68,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Icon(
-                      Icons.videogame_asset_rounded,
-                      size: context.sw(20).clamp(64, 100),
-                      color: theme.colorScheme.primary,
+                    // Siluet Logo Merak Bulat PeaQook
+                    Center(
+                      child: PeaQookLogo(
+                        size: context.sw(22).clamp(80, 120),
+                      ),
                     ),
-                    const SizedBox(height: 16),
+                    const SizedBox(height: 20),
                     Text(
-                      'Selamat Datang di PixelQuiz! 🎮',
+                      'Selamat Datang di PeaQook! 🦚',
                       style: theme.textTheme.displayLarge?.copyWith(fontSize: 18),
                       textAlign: TextAlign.center,
                     ),
