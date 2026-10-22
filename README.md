@@ -1,4 +1,4 @@
-# pea_q
+# PeaQook
 
 Quiz App Pemmob 1
 
