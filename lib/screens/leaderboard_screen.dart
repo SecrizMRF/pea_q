@@ -50,42 +50,90 @@ class LeaderboardScreen extends StatelessWidget {
                 ? const Center(child: CircularProgressIndicator())
                 : results.isEmpty
                     ? Center(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.emoji_events_outlined,
-                              size: 80,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.3),
+                        child: Card(
+                          child: Padding(
+                            padding: const EdgeInsets.all(32.0),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  Icons.emoji_events_outlined,
+                                  size: 72,
+                                  color: theme.colorScheme.onSurface
+                                      .withValues(alpha: 0.3),
+                                ),
+                                const SizedBox(height: 16),
+                                Text(
+                                  'Belum Ada Riwayat Skor',
+                                  style: theme.textTheme.titleMedium?.copyWith(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                const SizedBox(height: 8),
+                                Text(
+                                  'Selesaikan kuis untuk mencatatkan skor terbaikmu di sini!',
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    color: theme.colorScheme.onSurface
+                                        .withValues(alpha: 0.65),
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
                             ),
-                            const SizedBox(height: 16),
-                            Text(
-                              'Belum Ada Riwayat Skor',
-                              style: theme.textTheme.titleMedium,
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              'Selesaikan kuis untuk mencatatkan skor di sini!',
-                              style: theme.textTheme.bodyMedium?.copyWith(
-                                color: theme.colorScheme.onSurface
-                                    .withValues(alpha: 0.6),
-                              ),
-                            ),
-                          ],
+                          ),
                         ),
                       )
-                    : ListView.builder(
-                        itemCount: results.length,
-                        itemBuilder: (context, index) {
-                          final item = results[index];
-                          final rank = index + 1;
+                    : Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Card(
+                            elevation: 2,
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 16, vertical: 12),
+                              child: Row(
+                                children: [
+                                  CircleAvatar(
+                                    radius: 18,
+                                    backgroundColor:
+                                        theme.colorScheme.primary.withValues(alpha: 0.15),
+                                    child: Icon(
+                                      Icons.leaderboard_rounded,
+                                      color: theme.colorScheme.primary,
+                                      size: 20,
+                                    ),
+                                  ),
+                                  const SizedBox(width: 12),
+                                  Expanded(
+                                    child: Text(
+                                      'Top ${results.length} Skor Tertinggi Lokal',
+                                      style: theme.textTheme.titleMedium?.copyWith(
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 12),
+                          Expanded(
+                            child: ListView.builder(
+                              itemCount: results.length,
+                              itemBuilder: (context, index) {
+                                final item = results[index];
+                                final rank = index + 1;
 
-                          return LeaderboardTile(
-                            rank: rank,
-                            result: item,
-                          );
-                        },
+                                return LeaderboardTile(
+                                  rank: rank,
+                                  result: item,
+                                );
+                              },
+                            ),
+                          ),
+                        ],
                       ),
           ),
         ),

@@ -92,6 +92,51 @@ enum Difficulty {
   }
 }
 
+enum PowerUp {
+  none(
+    keyName: 'none',
+    label: 'Tanpa Power Up',
+    description: 'Bermain murni tanpa bantuan',
+    icon: Icons.block_rounded,
+    color: Colors.grey,
+  ),
+  extraTime(
+    keyName: 'extraTime',
+    label: 'Extra Time (+5s)',
+    description: 'Memberikan tambahan waktu 5 detik',
+    icon: Icons.more_time_rounded,
+    color: Colors.blue,
+  ),
+  questionSlayer(
+    keyName: 'questionSlayer',
+    label: 'Question Slayer',
+    description: 'Otomatis menjawab benar & lewati 1 soal',
+    icon: Icons.auto_awesome_rounded,
+    color: Colors.amber,
+  );
+
+  final String keyName;
+  final String label;
+  final String description;
+  final IconData icon;
+  final Color color;
+
+  const PowerUp({
+    required this.keyName,
+    required this.label,
+    required this.description,
+    required this.icon,
+    required this.color,
+  });
+
+  static PowerUp fromKey(String key) {
+    return PowerUp.values.firstWhere(
+      (e) => e.keyName == key,
+      orElse: () => PowerUp.none,
+    );
+  }
+}
+
 enum QuizStatus {
   initial,
   inProgress,

@@ -29,9 +29,10 @@ class ResponsiveCenter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final double effectiveMaxWidth = context.isLandscape ? 1150.0 : maxWidth;
     return Center(
       child: ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: maxWidth),
+        constraints: BoxConstraints(maxWidth: effectiveMaxWidth),
         child: Padding(
           padding: padding ?? EdgeInsets.zero,
           child: child,

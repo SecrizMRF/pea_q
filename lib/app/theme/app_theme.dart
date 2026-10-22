@@ -25,9 +25,10 @@ class AppTheme {
         foregroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
-        titleTextStyle: AppTextStyles.pixelHeader(
+        titleTextStyle: AppTextStyles.header(
           color: Colors.white,
-          fontSize: 16,
+          fontSize: 18,
+          fontWeight: FontWeight.w700,
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -38,19 +39,24 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          textStyle: AppTextStyles.title(color: Colors.white, fontSize: 16),
+          textStyle: AppTextStyles.title(
+            color: Colors.white,
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+          ),
         ),
       ),
       cardTheme: CardThemeData(
         color: AppColors.lightCard,
-        elevation: 3,
+        elevation: 2,
+        shadowColor: Colors.purple.withValues(alpha: 0.08),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: AppColors.lightBorder, width: 1.5),
+          side: const BorderSide(color: AppColors.lightBorder, width: 1.0),
         ),
       ),
       textTheme: TextTheme(
-        displayLarge: AppTextStyles.pixelHeader(color: AppColors.lightText, fontSize: 24),
+        displayLarge: AppTextStyles.header(color: AppColors.lightText, fontSize: 24),
         titleLarge: AppTextStyles.title(color: AppColors.lightText, fontSize: 20),
         titleMedium: AppTextStyles.title(color: AppColors.lightText, fontSize: 16),
         bodyLarge: AppTextStyles.body(color: AppColors.lightText, fontSize: 16),
@@ -82,9 +88,10 @@ class AppTheme {
         foregroundColor: AppColors.darkText,
         elevation: 0,
         centerTitle: true,
-        titleTextStyle: AppTextStyles.pixelHeader(
+        titleTextStyle: AppTextStyles.header(
           color: AppColors.darkText,
-          fontSize: 16,
+          fontSize: 18,
+          fontWeight: FontWeight.w700,
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -95,19 +102,23 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          textStyle: AppTextStyles.title(color: Colors.black, fontSize: 16),
+          textStyle: AppTextStyles.title(
+            color: Colors.black,
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+          ),
         ),
       ),
       cardTheme: CardThemeData(
         color: AppColors.darkCard,
-        elevation: 4,
+        elevation: 3,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: AppColors.darkBorder, width: 1.5),
+          side: const BorderSide(color: AppColors.darkBorder, width: 1.0),
         ),
       ),
       textTheme: TextTheme(
-        displayLarge: AppTextStyles.pixelHeader(color: AppColors.darkText, fontSize: 24),
+        displayLarge: AppTextStyles.header(color: AppColors.darkText, fontSize: 24),
         titleLarge: AppTextStyles.title(color: AppColors.darkText, fontSize: 20),
         titleMedium: AppTextStyles.title(color: AppColors.darkText, fontSize: 16),
         bodyLarge: AppTextStyles.body(color: AppColors.darkText, fontSize: 16),

@@ -7,6 +7,9 @@ class PrimaryButton extends StatelessWidget {
   final bool isFullWidth;
   final bool isLoading;
   final Color? backgroundColor;
+  final EdgeInsetsGeometry? padding;
+  final double? fontSize;
+  final double? iconSize;
 
   const PrimaryButton({
     super.key,
@@ -16,6 +19,9 @@ class PrimaryButton extends StatelessWidget {
     this.isFullWidth = true,
     this.isLoading = false,
     this.backgroundColor,
+    this.padding,
+    this.fontSize,
+    this.iconSize,
   });
 
   @override
@@ -24,11 +30,11 @@ class PrimaryButton extends StatelessWidget {
 
     Widget childWidget;
     if (isLoading) {
-      childWidget = const SizedBox(
-        width: 20,
-        height: 20,
-        child: CircularProgressIndicator(
-          strokeWidth: 2,
+      childWidget = SizedBox(
+        width: iconSize ?? 20,
+        height: iconSize ?? 20,
+        child: const CircularProgressIndicator(
+          strokeWidth: 2.5,
           color: Colors.white,
         ),
       );
@@ -37,23 +43,38 @@ class PrimaryButton extends StatelessWidget {
         mainAxisSize: isFullWidth ? MainAxisSize.max : MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(icon, size: 20),
-          const SizedBox(width: 8),
-          Text(label),
+          Icon(icon, size: iconSize ?? 22),
+          const SizedBox(width: 10),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: fontSize ?? 16,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 0.5,
+            ),
+          ),
         ],
       );
     } else {
-      childWidget = Text(label);
+      childWidget = Text(
+        label,
+        style: TextStyle(
+          fontSize: fontSize ?? 16,
+          fontWeight: FontWeight.bold,
+          letterSpacing: 0.5,
+        ),
+      );
     }
 
     final buttonStyle = ElevatedButton.styleFrom(
       backgroundColor: backgroundColor ?? theme.colorScheme.primary,
       foregroundColor: Colors.white,
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+      padding: padding ?? const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+      elevation: 4,
+      shadowColor: (backgroundColor ?? theme.colorScheme.primary).withValues(alpha: 0.4),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(16),
       ),
-      elevation: 2,
     );
 
     if (isFullWidth) {

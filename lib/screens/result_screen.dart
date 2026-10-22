@@ -44,6 +44,7 @@ class _ResultScreenState extends State<ResultScreen> {
     final isDark = theme.brightness == Brightness.dark;
     final quizProvider = context.watch<QuizProvider>();
     final category = quizProvider.selectedCategory;
+    final difficulty = quizProvider.selectedDifficulty;
     final categoryColor = category.color;
     final score = quizProvider.score;
     final correct = quizProvider.correctCount;
@@ -77,81 +78,115 @@ class _ResultScreenState extends State<ResultScreen> {
         child: SafeArea(
           child: ResponsiveCenter(
             padding: const EdgeInsets.all(24.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Icon(
-                  icon,
-                  size: 80,
-                  color: iconColor,
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  headline,
-                  style: theme.textTheme.displayLarge?.copyWith(fontSize: 22),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Pemain: ${quizProvider.playerName}',
-                  style: theme.textTheme.titleMedium,
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 12),
-                Center(
-                  child: Chip(
-                    avatar: Icon(category.icon, size: 18, color: categoryColor),
-                    label: Text(
-                      category.label,
-                      style: TextStyle(
-                        color: isDark
-                            ? categoryColor.withValues(alpha: 0.95)
-                            : categoryColor,
-                        fontWeight: FontWeight.bold,
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Icon(
+                    icon,
+                    size: 72,
+                    color: iconColor,
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    headline,
+                    style: theme.textTheme.displayLarge?.copyWith(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    'Pemain: ${quizProvider.playerName}',
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.8),
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 12),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Chip(
+                        avatar: Icon(category.icon, size: 16, color: categoryColor),
+                        label: Text(
+                          category.label,
+                          style: TextStyle(
+                            color: isDark
+                                ? categoryColor.withValues(alpha: 0.95)
+                                : categoryColor,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 12,
+                          ),
+                        ),
+                        backgroundColor:
+                            categoryColor.withValues(alpha: isDark ? 0.25 : 0.15),
+                        side: BorderSide(color: categoryColor),
+                      ),
+                      const SizedBox(width: 8),
+                      Chip(
+                        avatar: CircleAvatar(
+                          radius: 5,
+                          backgroundColor: difficulty.color,
+                        ),
+                        label: Text(
+                          difficulty.label,
+                          style: TextStyle(
+                            color: difficulty.color,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 12,
+                          ),
+                        ),
+                        backgroundColor: difficulty.color.withValues(alpha: 0.15),
+                        side: BorderSide(color: difficulty.color),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  ScoreSummaryCard(
+                    score: score,
+                    correctCount: correct,
+                    totalQuestions: total,
+                  ),
+                  const SizedBox(height: 20),
+                  PrimaryButton(
+                    onPressed: () {
+                      Navigator.of(context).pushNamed(AppStrings.routeReview);
+                    },
+                    icon: Icons.rate_review_rounded,
+                    label: 'REVIEW JAWABAN',
+                  ),
+                  const SizedBox(height: 10),
+                  OutlinedButton.icon(
+                    onPressed: () {
+                      Navigator.of(context)
+                          .pushNamed(AppStrings.routeLeaderboard);
+                    },
+                    icon: const Icon(Icons.leaderboard_rounded),
+                    label: const Text('LIHAT LEADERBOARD'),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-                    backgroundColor:
-                        categoryColor.withValues(alpha: isDark ? 0.25 : 0.15),
-                    side: BorderSide(color: categoryColor),
                   ),
-                ),
-                const SizedBox(height: 16),
-                ScoreSummaryCard(
-                  score: score,
-                  correctCount: correct,
-                  totalQuestions: total,
-                ),
-                const SizedBox(height: 24),
-                PrimaryButton(
-                  onPressed: () {
-                    Navigator.of(context).pushNamed(AppStrings.routeReview);
-                  },
-                  icon: Icons.rate_review_rounded,
-                  label: 'REVIEW JAWABAN',
-                ),
-                const SizedBox(height: 12),
-                OutlinedButton.icon(
-                  onPressed: () {
-                    Navigator.of(context)
-                        .pushNamed(AppStrings.routeLeaderboard);
-                  },
-                  icon: const Icon(Icons.leaderboard_rounded),
-                  label: const Text('LIHAT LEADERBOARD'),
-                ),
-                const SizedBox(height: 12),
-                TextButton.icon(
-                  onPressed: () {
-                    quizProvider.resetQuiz();
-                    Navigator.of(context).pushNamedAndRemoveUntil(
-                      AppStrings.routeHome,
-                      (route) => false,
-                    );
-                  },
-                  icon: const Icon(Icons.home_rounded),
-                  label: const Text('KE MENU UTAMA'),
-                ),
-              ],
+                  const SizedBox(height: 10),
+                  TextButton.icon(
+                    onPressed: () {
+                      quizProvider.resetQuiz();
+                      Navigator.of(context).pushNamedAndRemoveUntil(
+                        AppStrings.routeHome,
+                        (route) => false,
+                      );
+                    },
+                    icon: const Icon(Icons.home_rounded),
+                    label: const Text('KE MENU UTAMA'),
+                  ),
+                ],
+              ),
             ),
           ),
         ),

@@ -11,6 +11,8 @@ class QuizProvider extends ChangeNotifier {
   String _playerName = '';
   QuizCategory _selectedCategory = QuizCategory.sejarahKonsol;
   Difficulty _selectedDifficulty = Difficulty.mudah;
+  PowerUp _selectedPowerUp = PowerUp.none;
+  bool _isPowerUpUsed = false;
 
   List<Question> _questions = [];
   int _currentIndex = 0;
@@ -25,6 +27,8 @@ class QuizProvider extends ChangeNotifier {
   String get playerName => _playerName.isEmpty ? 'Player 1' : _playerName;
   QuizCategory get selectedCategory => _selectedCategory;
   Difficulty get selectedDifficulty => _selectedDifficulty;
+  PowerUp get selectedPowerUp => _selectedPowerUp;
+  bool get isPowerUpUsed => _isPowerUpUsed;
 
   List<Question> get questions => _questions;
   int get currentIndex => _currentIndex;
@@ -75,6 +79,39 @@ class QuizProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void selectPowerUp(PowerUp powerUp) {
+    _selectedPowerUp = powerUp;
+    notifyListeners();
+  }
+
+  void cyclePowerUp() {
+    final nextIndex = (_selectedPowerUp.index + 1) % PowerUp.values.length;
+    _selectedPowerUp = PowerUp.values[nextIndex];
+    notifyListeners();
+  }
+
+  void activatePowerUp() {
+    if (_isPowerUpUsed || _selectedPowerUp == PowerUp.none) return;
+
+    _isPowerUpUsed = true;
+
+    if (_selectedPowerUp == PowerUp.extraTime) {
+      _remainingSeconds += 5;
+      if (_questionDeadline != null) {
+        _questionDeadline =
+            _questionDeadline!.add(const Duration(seconds: 5));
+      }
+      notifyListeners();
+    } else if (_selectedPowerUp == PowerUp.questionSlayer) {
+      final currentQ = currentQuestion;
+      if (currentQ != null) {
+        selectAnswer(currentQ.correctIndex);
+        notifyListeners();
+        nextQuestion();
+      }
+    }
+  }
+
   Future<void> startQuiz() async {
     _questions = await _repository.getQuestionsForQuiz(
       category: _selectedCategory,
@@ -84,6 +121,7 @@ class QuizProvider extends ChangeNotifier {
 
     _currentIndex = 0;
     _userAnswers = List<int?>.filled(_questions.length, null);
+    _isPowerUpUsed = false;
     _status = QuizStatus.inProgress;
 
     _startTimerForCurrentQuestion();
@@ -156,6 +194,7 @@ class QuizProvider extends ChangeNotifier {
     _currentIndex = 0;
     _questions = [];
     _userAnswers = [];
+    _isPowerUpUsed = false;
     _status = QuizStatus.initial;
     notifyListeners();
   }

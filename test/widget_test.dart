@@ -20,8 +20,8 @@ void main() {
 
     expect(find.text('PeaQook'), findsOneWidget);
 
-    // Fast-forward splash timer to avoid pending timer error
-    await tester.pump(const Duration(milliseconds: 2500));
-    await tester.pumpAndSettle();
+    // Fast-forward splash timer and frames
+    await tester.pump(const Duration(milliseconds: 2600));
+    await tester.pump();
   });
 }

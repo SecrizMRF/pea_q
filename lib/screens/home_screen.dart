@@ -68,25 +68,76 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    // Siluet Logo Merak Bulat PeaQook
+                    // Header Logo Merak Bulat PeaQook
                     Center(
                       child: PeaQookLogo(
                         size: context.sw(22).clamp(80, 120),
                       ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 18),
                     Text(
                       'Selamat Datang di PeaQook! 🦚',
-                      style: theme.textTheme.displayLarge?.copyWith(fontSize: 18),
+                      style: theme.textTheme.displayLarge?.copyWith(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
                       textAlign: TextAlign.center,
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 6),
                     Text(
-                      'Uji pengetahuanmu seputar dunia video game!',
-                      style: theme.textTheme.bodyLarge,
+                      'Uji pengetahuan & wawasanmu seputar dunia video game!',
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: theme.colorScheme.onSurface.withValues(alpha: 0.8),
+                      ),
                       textAlign: TextAlign.center,
                     ),
-                    const SizedBox(height: 32),
+                    const SizedBox(height: 24),
+
+                    // Quick Stats & Info Banner (Agar Layar Tidak Terlihat Kosong)
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 12),
+                      decoration: BoxDecoration(
+                        color: theme.colorScheme.primary.withValues(alpha: 0.08),
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: theme.colorScheme.primary.withValues(alpha: 0.2),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          _buildStatItem(
+                            context,
+                            icon: Icons.quiz_rounded,
+                            label: '60+ Soal',
+                          ),
+                          Container(
+                            height: 24,
+                            width: 1,
+                            color: theme.dividerColor,
+                          ),
+                          _buildStatItem(
+                            context,
+                            icon: Icons.category_rounded,
+                            label: '4 Kategori',
+                          ),
+                          Container(
+                            height: 24,
+                            width: 1,
+                            color: theme.dividerColor,
+                          ),
+                          _buildStatItem(
+                            context,
+                            icon: Icons.timer_rounded,
+                            label: '3 Level Timer',
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+
+                    // Input Form Nama Pemain
                     Card(
                       child: Padding(
                         padding: const EdgeInsets.all(20.0),
@@ -122,6 +173,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 24),
+
+                    // Tombol Aksi Utama
                     PrimaryButton(
                       onPressed: _onStartPressed,
                       label: 'MULAI KUIS',
@@ -134,7 +187,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             .pushNamed(AppStrings.routeLeaderboard);
                       },
                       icon: const Icon(Icons.leaderboard_rounded),
-                      label: const Text('LEADERBOARD'),
+                      label: const Text('LEADERBOARD SAYA'),
                       style: OutlinedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         shape: RoundedRectangleBorder(
@@ -149,6 +202,25 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+    );
+  }
+
+  Widget _buildStatItem(BuildContext context,
+      {required IconData icon, required String label}) {
+    final theme = Theme.of(context);
+    return Row(
+      children: [
+        Icon(icon, size: 16, color: theme.colorScheme.primary),
+        const SizedBox(width: 6),
+        Text(
+          label,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontSize: 12,
+            fontWeight: FontWeight.w600,
+            color: theme.colorScheme.primary,
+          ),
+        ),
+      ],
     );
   }
 }
