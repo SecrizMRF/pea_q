@@ -53,4 +53,4 @@
 - [Mockup/Wireframe]()
 
 ### iv. Link Video Presentasi (Google Drive)
-- [Video Presentasi UTS PeaQook (Google Drive)]()
+- [Video Presentasi UTS PeaQook (Google Drive)](https://drive.google.com/file/d/1cs5wx5FNr-bsigYyf0h-3LL-VLl16QX8/view?usp=sharing)
