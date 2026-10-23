@@ -50,7 +50,7 @@
 | ![Quiz Screen](assets/images/Pages/quizScreen.jpeg) | ![Result Screen](assets/images/Pages/resultScreen.jpeg) | ![Review Screen](assets/images/Pages/reviewScreen.jpeg) | ![Leaderboard Screen](assets/images/Pages/leaderboardScreen.jpeg) |
 
 ### iii. Link Mockup / Prototype Aplikasi
-- [Mockup/Wireframe]()
+- [Mockup/Wireframe -> Canva](https://canva.link/40b7kbxdeofb3ah)
 
 ### iv. Link Video Presentasi (Google Drive)
 - [Video Presentasi UTS PeaQook (Google Drive)](https://drive.google.com/file/d/1cs5wx5FNr-bsigYyf0h-3LL-VLl16QX8/view?usp=sharing)
